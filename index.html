@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bruna Hilbert — Frontend Developer</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+
+<body>
+
+	<div id="cursor"></div>
+	<div id="cursor-ring"></div>
+	<div id="scroll-bar"></div>
+
+	<!-- NAV -->
+	<nav>
+		<a href="index.html" class="nav-logo">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 54" class="cv-logo" role="img" aria-label="Bruna Hilbert">
+				<rect x="0" y="0" width="54" height="54" rx="10" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.30)" stroke-width="1"></rect>
+				<text x="27" y="27" dominant-baseline="central" text-anchor="middle" font-family="'DM Mono','Courier New',monospace" font-size="18" fill="#ffffff">&lt;/&gt;</text>
+				<text x="68" y="24" font-family="'Syne','Arial Black',sans-serif" font-size="22" font-weight="800" letter-spacing="-0.5" fill="#ffffff">Bruna</text>
+				<text x="68" y="48" font-family="'Syne','Arial Black',sans-serif" font-size="22" font-weight="800" letter-spacing="-0.5" fill="#83C5BE">Hilbert</text>
+			</svg>
+		</a>
+		<ul class="nav-links">
+			<li><a href="#about">about</a></li>
+			<li><a href="#work">work</a></li>
+			<li><a href="#contact">contact</a></li>
+		</ul>
+		<a href="files/cv-en.html" target="_blank" class="nav-cta">cv.pdf ↗</a>
+	</nav>
+
+	<!-- HERO — dark teal #006D77 -->
+	<div class="zone-hero">
+		<section class="hero">
+			<div class="hero-eyebrow">
+				<div class="dot"></div>
+				<span>open to opportunities</span>
+			</div>
+
+			<h1 class="hero-headline">
+				Hello,<br>
+				I'm <span class="highlight">Bruna</span>.
+			</h1>
+
+			<p class="hero-sub">
+				Web developer from 🇧🇷 living in Stuttgart 🇩🇪.<br>
+				Former art teacher turned code enthusiast —<br>
+				I care about how it <em>works</em> and how it <em>feels</em>.
+			</p>
+
+			<div class="hero-actions">
+				<a href="#work" class="btn-primary">view projects →</a>
+				<a href="#contact" class="btn-ghost">say hello</a>
+			</div>
+
+			<div class="hero-tags">
+				<span class="tag">React</span>
+				<span class="tag">TypeScript</span>
+				<span class="tag">Angular</span>
+				<span class="tag">Node.js</span>
+				<span class="tag">JavaScript</span>
+				<span class="tag">MySQL</span>
+				<span class="tag">MongoDB</span>
+				<span class="tag">Git</span>
+				<span class="tag">Java</span>
+				<span class="tag">React Native</span>
+				<span class="tag">PHP</span>
+				<span class="tag">SASS</span>
+				<span class="tag">Bootstrap</span>
+				<span class="tag">Wordpress</span>
+			</div>
+		</section>
+	</div>
+
+	<!-- TICKER — medium teal #0A9396 -->
+	<div class="ticker-wrap">
+		<div class="ticker">
+			<div class="ticker-item"><span class="ticker-sep">✦</span> Frontend Dev</div>
+			<div class="ticker-item"><span class="ticker-sep">✦</span> Visual Arts 🎨</div>
+			<div class="ticker-item"><span class="ticker-sep">✦</span> React &amp; Angular</div>
+			<div class="ticker-item"><span class="ticker-sep">✦</span> Zuhause in zwei Welten 🇧🇷🇩🇪</div>
+			<div class="ticker-item"><span class="ticker-sep">✦</span> Stuttgart, Germany</div>
+			<div class="ticker-item"><span class="ticker-sep">✦</span> Full Stack</div>
+			<div class="ticker-item"><span class="ticker-sep">✦</span> Responsive Design</div>
+			<div class="ticker-item"><span class="ticker-sep">✦</span> Brasileira por natureza 🇧🇷</div>
+			<div class="ticker-item"><span class="ticker-sep">✦</span> Open to new opportunities</div>
+			<div class="ticker-item"><span class="ticker-sep">✦</span> UI/UX mindset</div>
+			<div class="ticker-item"><span class="ticker-sep">✦</span> Detail-oriented 🔎</div>
+			<div class="ticker-item"><span class="ticker-sep">✦</span> Coffee or tea? Yes, please!</div>
+		</div>
+	</div>
+
+	<!-- ABOUT — white -->
+	<div class="zone-white">
+		<section class="section" id="about">
+			<div class="section-label">about me</div>
+			<div class="about-grid">
+				<div>
+					<p class="about-big">Art teacher turned<br><span>frontend developer</span> —<br>based in Stuttgart.
+					</p>
+					<div class="about-text">
+						<p>I'm a Brazilian web developer living in Germany, and my path into tech was anything but
+							conventional. Before writing a single line of code, I spent years as a <strong>Visual Arts
+								teacher</strong> — and that experience shaped everything about how I build for the web.
+						</p>
+						<br>
+						<p>I think about beauty and function as inseparable. A great interface isn't just one that works
+							— it's one that <strong>delights</strong>. I bring that perspective to every project I
+							build.</p>
+						<br>
+						<p>After completing my <strong>Full-Stack Web Development course at CareerFoundry</strong>, I've
+							been building with React, Angular, TypeScript, and Node.js — always looking for that sweet
+							spot where aesthetics meets engineering.</p>
+					</div>
+					<!-- <div class="about-tech-pills">
+						<span class="tech-pill">⚛️ React</span>
+						<span class="tech-pill">🅰️ Angular</span>
+						<span class="tech-pill">🔷 TypeScript</span>
+						<span class="tech-pill">🟢 Node.js</span>
+						<span class="tech-pill">🍃 MongoDB</span>
+						<span class="tech-pill">☕ Java</span>
+						<span class="tech-pill">📱 React Native</span>
+						<span class="tech-pill">🐘 PHP</span>
+						<span class="tech-pill">🎨 SASS</span>
+						<span class="tech-pill">🅱️ Bootstrap</span>
+					</div> -->
+				</div>
+
+				<div class="stats-vertical">
+					<div class="stat-v-cell">
+						<div class="stat-v-number">12<span>+</span></div>
+						<div class="stat-v-label">projects in portfolio</div>
+					</div>
+					<div class="stat-v-cell">
+						<div class="stat-v-number">10<span>+</span></div>
+						<div class="stat-v-label">technologies</div>
+					</div>
+					<div class="stat-v-cell">
+						<div class="stat-v-number">3<span> 🌍</span></div>
+						<div class="stat-v-label">languages spoken</div>
+					</div>
+					<div class="stat-v-cell">
+						<div class="stat-v-number">∞<span> ☕</span></div>
+						<div class="stat-v-label">cups of coffee and tea</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- WORK — pale teal #CAF0F8 -->
+	<div class="zone-pale">
+		<section class="section" id="work">
+			<div class="section-label">client work</div>
+			<div class="projects-grid">
+
+				<div class="project-card client-card">
+					<span class="proj-emoji">📐</span>
+					<div class="proj-type">Client · WordPress / PHP</div>
+					<div class="proj-name">DB2 Architekten</div>
+					<div class="proj-stack">
+						<span class="stack-pill">WordPress</span>
+						<span class="stack-pill">PHP</span>
+					</div>
+					<div class="proj-links">
+						<a href="https://db2-architekten.de" class="proj-link" target="_blank">visit ↗</a>
+					</div>
+				</div>
+
+				<div class="project-card client-card">
+					<span class="proj-emoji">🛜</span>
+					<div class="proj-type">Client · WordPress / PHP</div>
+					<div class="proj-name">Tilko WLAN</div>
+					<div class="proj-stack">
+						<span class="stack-pill">WordPress</span>
+						<span class="stack-pill">PHP</span>
+					</div>
+					<div class="proj-links">
+						<a href="https://tilko-wlan.de/blog" class="proj-link" target="_blank">visit ↗</a>
+					</div>
+				</div>
+
+				<div class="project-card client-card">
+					<span class="proj-emoji">☁️</span>
+					<div class="proj-type">Client · WordPress / PHP</div>
+					<div class="proj-name">Brighter Cloud</div>
+					<div class="proj-stack">
+						<span class="stack-pill">WordPress</span>
+						<span class="stack-pill">PHP</span>
+					</div>
+					<div class="proj-links">
+						<a href="https://brighter.cloud" class="proj-link" target="_blank">visit ↗</a>
+					</div>
+				</div>
+
+				<div class="project-card client-card">
+					<span class="proj-emoji">🫟​</span>
+					<div class="proj-type">Client · WordPress / PHP</div>
+					<div class="proj-name">Rexhepi</div>
+					<div class="proj-stack">
+						<span class="stack-pill">WordPress</span>
+						<span class="stack-pill">PHP</span>
+					</div>
+					<div class="proj-links">
+						<a href="https://www.maler-rexhepi.de" class="proj-link" target="_blank">visit ↗</a>
+					</div>
+				</div>
+
+				<div class="project-card client-card">
+					<span class="proj-emoji">➕</span>
+					<div class="proj-type">Client · WordPress / PHP</div>
+					<div class="proj-name">OP Consult</div>
+					<div class="proj-stack">
+						<span class="stack-pill">WordPress</span>
+						<span class="stack-pill">PHP</span>
+					</div>
+					<div class="proj-links">
+						<a href="https://op-consult.de" class="proj-link" target="_blank">visit ↗</a>
+					</div>
+				</div>
+
+				<div class="project-card client-card">
+					<span class="proj-emoji">🔥</span>
+					<div class="proj-type">Client · WordPress / PHP</div>
+					<div class="proj-name">Climanovo</div>
+					<div class="proj-stack">
+						<span class="stack-pill">WordPress</span>
+						<span class="stack-pill">PHP</span>
+					</div>
+					<div class="proj-links">
+						<a href="https://climanovo.de" class="proj-link" target="_blank">visit ↗</a>
+					</div>
+				</div>
+
+				<div class="project-card client-card">
+					<span class="proj-emoji">🌱​</span>
+					<div class="proj-type">Client · Shopify / Liquid</div>
+					<div class="proj-name">Samenfritze</div>
+					<div class="proj-stack">
+						<span class="stack-pill">Shopify</span>
+						<span class="stack-pill">Liquid</span>
+					</div>
+					<div class="proj-links">
+						<a href="https://samenfritze.de" class="proj-link" target="_blank">visit ↗</a>
+					</div>
+				</div>
+
+				<div class="project-card client-card">
+					<span class="proj-emoji">⚡️</span>
+					<div class="proj-type">Client · WordPress / PHP</div>
+					<div class="proj-name">Thuega Netze</div>
+					<div class="proj-stack">
+						<span class="stack-pill">WordPress</span>
+						<span class="stack-pill">PHP</span>
+					</div>
+					<div class="proj-links">
+						<a href="https://thuega-netze.de" class="proj-link" target="_blank">visit ↗</a>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="client-subsection">
+				<div class="subsection-label">selected projects</div>
+				<div class="projects-grid">
+
+					<div class="project-card">
+						<span class="proj-emoji">🎬</span>
+						<div class="proj-type">Full Stack · React</div>
+						<div class="proj-name">MyMovieBox — React</div>
+						<div class="proj-stack">
+							<span class="stack-pill">React</span>
+							<span class="stack-pill">Node.js</span>
+							<span class="stack-pill">MongoDB</span>
+							<span class="stack-pill">Express</span>
+							<span class="stack-pill">JWT Auth</span>
+						</div>
+						<div class="proj-links">
+							<a href="https://github.com/brunahilbert/myMovieBox-client" class="proj-link" target="_blank">code ↗</a>
+							<a href="https://mymoviebox.netlify.app" class="proj-link" target="_blank">demo ↗</a>
+							<a href="mymoviebox-case-study.html" class="proj-link">case study →</a>
+						</div>
+					</div>
+
+					<div class="project-card">
+						<span class="proj-emoji">🅰️</span>
+						<div class="proj-type">Angular · TypeScript</div>
+						<div class="proj-name">MyMovieBox — Angular</div>
+						<div class="proj-stack">
+							<span class="stack-pill">Angular</span>
+							<span class="stack-pill">TypeScript</span>
+							<span class="stack-pill">MongoDB</span>
+						</div>
+						<div class="proj-links">
+							<a href="https://github.com/brunahilbert/myMovieBox-angular-client" class="proj-link" target="_blank">code ↗</a>
+							<a href="https://brunahilbert.github.io/myMovieBox-angular-client" class="proj-link" target="_blank">demo ↗</a>
+						</div>
+					</div>
+
+					<div class="project-card">
+						<span class="proj-emoji">📅</span>
+						<div class="proj-type">PWA · React</div>
+						<div class="proj-name">Meet App</div>
+						<div class="proj-stack">
+							<span class="stack-pill">React</span>
+							<span class="stack-pill">TDD / BDD</span>
+							<span class="stack-pill">Google API</span>
+						</div>
+						<div class="proj-links">
+							<a href="https://github.com/brunahilbert/meet" class="proj-link" target="_blank">code ↗</a>
+							<a href="https://brunahilbert.github.io/meet/" class="proj-link" target="_blank">demo ↗</a>
+						</div>
+					</div>
+
+					<div class="project-card">
+						<span class="proj-emoji">⚡️</span>
+						<div class="proj-type">JavaScript · REST API</div>
+						<div class="proj-name">Pokédex</div>
+						<div class="proj-stack">
+							<span class="stack-pill">JavaScript</span>
+							<span class="stack-pill">HTML / CSS</span>
+							<span class="stack-pill">PokeAPI</span>
+						</div>
+						<div class="proj-links">
+							<a href="https://github.com/brunahilbert/pokedex" class="proj-link" target="_blank">code ↗</a>
+							<a href="https://brunahilbert.github.io/pokedex/" class="proj-link" target="_blank">demo ↗</a>
+							<a href="pokedex-case-study.html" class="proj-link">case study →</a>
+						</div>
+					</div>
+
+					<div class="project-card">
+						<span class="proj-emoji">💬</span>
+						<div class="proj-type">React Native · Mobile</div>
+						<div class="proj-name">Chatmate</div>
+						<div class="proj-stack">
+							<span class="stack-pill">React Native</span>
+							<span class="stack-pill">Firebase</span>
+							<span class="stack-pill">Expo</span>
+						</div>
+						<div class="proj-links">
+							<a href="https://github.com/brunahilbert/chatmate" class="proj-link" target="_blank">code ↗</a>
+						</div>
+					</div>
+
+					<div class="project-card">
+						<span class="proj-emoji">💣</span>
+						<div class="proj-type">Java · Game</div>
+						<div class="proj-name">Minesweeper</div>
+						<div class="proj-stack">
+							<span class="stack-pill">Java</span>
+						</div>
+						<div class="proj-links">
+							<a href="https://github.com/brunahilbert/minesweeper" class="proj-link" target="_blank">code ↗</a>
+						</div>
+					</div>
+
+					<div class="project-card">
+						<span class="proj-emoji">✅</span>
+						<div class="proj-type">JavaScript · jQuery</div>
+						<div class="proj-name">To-Do List App</div>
+						<div class="proj-stack">
+							<span class="stack-pill">jQuery</span>
+							<span class="stack-pill">JavaScript</span>
+							<span class="stack-pill">HTML / CSS</span>
+						</div>
+						<div class="proj-links">
+							<a href="https://github.com/brunahilbert/to-do-list-app" class="proj-link" target="_blank">code ↗</a>
+							<a href="https://brunahilbert.github.io/to-do-list-app/" class="proj-link" target="_blank">demo ↗</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- CONTACT — darkest teal #003D4A -->
+	<div class="zone-dark">
+		<section class="section" id="contact">
+			<div class="section-label">get in touch</div>
+			<div class="contact-inner">
+				<div>
+					<h2 class="contact-headline">Let's build<br>something<br><span class="accent">great.</span></h2>
+					<p class="contact-sub">I'm open to frontend developer roles and love collaborating on interesting
+						projects. Drop me a message — I always write back! 🙂</p>
+					<a href="mailto:bruna.hilbert.93@gmail.com" class="btn-primary"
+						style="display:inline-block; overflow-wrap: anywhere;">bruna.hilbert.93@gmail.com →</a>
+				</div>
+				<div class="contact-links">
+					<a href="mailto:bruna.hilbert.93@gmail.com" class="contact-link">
+						<div class="cl-icon">✉️</div>
+						<div>
+							<div class="cl-title">Email</div>
+							<div class="cl-value">bruna.hilbert.93@gmail.com</div>
+						</div>
+					</a>
+					<a href="https://github.com/brunahilbert" class="contact-link" target="_blank">
+						<div class="cl-icon">🐙</div>
+						<div>
+							<div class="cl-title">GitHub</div>
+							<div class="cl-value">github.com/brunahilbert</div>
+						</div>
+					</a>
+					<a href="https://www.linkedin.com/in/hilbertbruna" class="contact-link" target="_blank">
+						<div class="cl-icon">💼</div>
+						<div>
+							<div class="cl-title">LinkedIn</div>
+							<div class="cl-value">linkedin.com/in/hilbertbruna</div>
+						</div>
+					</a>
+					<div class="contact-link">
+						<div class="cl-icon">📍</div>
+						<div>
+							<div class="cl-title">Location</div>
+							<div class="cl-value">Stuttgart, Deutschland 🇩🇪</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>Designed &amp; built with ♥ by <span>Bruna Hilbert</span> · 2026</p>
+			<div class="footer-links">
+				<a href="https://github.com/brunahilbert" target="_blank">GitHub</a>
+				<a href="https://www.linkedin.com/in/hilbertbruna" target="_blank">LinkedIn</a>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>

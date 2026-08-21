@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MyMovieBox — Case Study · Bruna Hilbert</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+
+<body>
+
+	<div id="cursor"></div>
+	<div id="cursor-ring"></div>
+	<div id="scroll-bar"></div>
+
+	<!-- NAV -->
+	<nav>
+		<a href="index.html" class="nav-logo">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 54" class="cv-logo" role="img"
+				aria-label="Bruna Hilbert">
+				<rect x="0" y="0" width="54" height="54" rx="10" fill="rgba(255,255,255,0.15)"
+					stroke="rgba(255,255,255,0.30)" stroke-width="1"></rect>
+				<text x="27" y="27" dominant-baseline="central" text-anchor="middle"
+					font-family="'DM Mono','Courier New',monospace" font-size="18" fill="#ffffff">&lt;/&gt;</text>
+				<text x="68" y="24" font-family="'Syne','Arial Black',sans-serif" font-size="22" font-weight="800"
+					letter-spacing="-0.5" fill="#ffffff">Bruna</text>
+				<text x="68" y="48" font-family="'Syne','Arial Black',sans-serif" font-size="22" font-weight="800"
+					letter-spacing="-0.5" fill="#83C5BE">Hilbert</text>
+			</svg>
+		</a>
+		<ul class="nav-links">
+			<li><a href="index.html#about">about</a></li>
+			<li><a href="index.html#work">work</a></li>
+			<li><a href="index.html#contact">contact</a></li>
+		</ul>
+		<a href="files/cv-en.html" target="_blank" class="nav-cta">cv.pdf ↗</a>
+	</nav>
+
+	<!-- HERO -->
+	<div class="zone-hero">
+		<section class="section cs-hero">
+			<a href="index.html#work" class="cs-back">← back to portfolio</a>
+			<span class="cs-hero-emoji">🎬</span>
+			<h1 class="cs-hero-title">MyMovieBox</h1>
+			<p class="cs-hero-type">Full Stack · React · Angular · Case Study</p>
+			<div class="hero-tags">
+				<span class="tag">React</span>
+				<span class="tag">Redux</span>
+				<span class="tag">Angular</span>
+				<span class="tag">Node.js</span>
+				<span class="tag">MongoDB</span>
+				<span class="tag">Express</span>
+				<span class="tag">JWT Auth</span>
+				<span class="tag">TypeScript</span>
+				<span class="tag">REST API</span>
+			</div>
+			<div class="cs-hero-actions">
+				<a href="https://mymoviebox.netlify.app" target="_blank" class="btn-primary">View React Demo ↗</a>
+				<a href="https://brunahilbert.github.io/myMovieBox-angular-client" target="_blank"
+					class="btn-ghost">View Angular Demo ↗</a>
+			</div>
+		</section>
+	</div>
+
+	<!-- OVERVIEW -->
+	<div class="zone-white">
+		<section class="section">
+			<div class="section-label">overview</div>
+			<div class="cs-overview-grid">
+				<div class="cs-body-text">
+					<p>
+						MyMovieBox is a <strong>full-stack web application built on the MERN stack</strong>, offering
+						users a database with information about movies, genres, and directors. Users can create an
+						account, manage their personal information, and maintain a personalised list of favourite films.
+					</p>
+					<p>
+						The backend is a <strong>RESTful API</strong> built with Node.js and Express, connected to
+						MongoDB. It handles CRUD operations, delivers data in JSON format, and is secured with both
+						basic HTTP authentication and <strong>JWT authentication</strong>. The API was tested with
+						Postman throughout development and documented on Heroku.
+					</p>
+					<p>
+						The <strong>React + Redux client</strong> is a single-page application with a responsive design,
+						search and filter, detail views with related suggestions, and full favourites management. A
+						second client was then built in <strong>Angular</strong> as a deliberate exercise to experience
+						the same product with a different, more opinionated framework.
+					</p>
+				</div>
+				<div class="cs-glance">
+					<div class="cs-glance-item">
+						<div class="cs-glance-label">Year</div>
+						<div class="cs-glance-value">2022 – 2023</div>
+					</div>
+					<div class="cs-glance-item">
+						<div class="cs-glance-label">Role</div>
+						<div class="cs-glance-value">Solo — backend &amp; both frontends</div>
+					</div>
+					<div class="cs-glance-item">
+						<div class="cs-glance-label">Context</div>
+						<div class="cs-glance-value">CareerFoundry training project</div>
+					</div>
+					<div class="cs-glance-item">
+						<div class="cs-glance-label">Stack</div>
+						<div class="cs-glance-pills">
+							<span class="cs-pill">React</span>
+							<span class="cs-pill">Redux</span>
+							<span class="cs-pill">Angular</span>
+							<span class="cs-pill">Node.js</span>
+							<span class="cs-pill">Express</span>
+							<span class="cs-pill">MongoDB</span>
+							<span class="cs-pill">JWT</span>
+							<span class="cs-pill">TypeScript</span>
+						</div>
+					</div>
+					<div class="cs-glance-item">
+						<div class="cs-glance-label">Deployed on</div>
+						<div class="cs-glance-value">Netlify (React) · GitHub Pages (Angular)</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- ARCHITECTURE -->
+	<div class="zone-pale">
+		<section class="section">
+			<div class="section-label">architecture</div>
+			<div class="cs-arch">
+				<div class="cs-arch-card">
+					<div class="cs-arch-card-title">Backend — API</div>
+					<ul>
+						<li>Node.js + Express REST API</li>
+						<li>MongoDB + Mongoose for data modelling</li>
+						<li>JWT authentication with Passport.js</li>
+						<li>bcrypt password hashing</li>
+						<li>CORS configured for multiple client origins</li>
+						<li>Deployed on Heroku</li>
+					</ul>
+				</div>
+				<div class="cs-arch-card">
+					<div class="cs-arch-card-title">React Client</div>
+					<ul>
+						<li>React + Redux single-page application</li>
+						<li>Responsive design</li>
+						<li>Movie list searchable by title, genre, and director</li>
+						<li>Single movie view with related suggestions</li>
+						<li>Login, registration, and profile views</li>
+						<li>Deployed on Netlify</li>
+					</ul>
+				</div>
+				<div class="cs-arch-card">
+					<div class="cs-arch-card-title">Angular Client</div>
+					<ul>
+						<li>Angular 16 + TypeScript</li>
+						<li>Angular Material UI components</li>
+						<li>RxJS Observables for API calls</li>
+						<li>Angular Router + guards for protected routes</li>
+						<li>Deployed on GitHub Pages</li>
+					</ul>
+				</div>
+				<div class="cs-arch-card">
+					<div class="cs-arch-card-title">Data Model</div>
+					<ul>
+						<li>Movies collection: title, description, genre, director, image</li>
+						<li>Users collection: username, password (hashed), email, favourites[]</li>
+						<li>Directors &amp; genres as embedded documents</li>
+						<li>Relationships via MongoDB ObjectId references</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- PROCESS -->
+	<div class="zone-white">
+		<section class="section">
+			<div class="section-label">process</div>
+			<div class="cs-steps">
+
+				<div class="cs-step">
+					<div class="cs-step-num">01</div>
+					<div class="cs-step-title">Build the API First</div>
+					<div class="cs-step-desc">
+						Started with the backend — defining the data model in MongoDB, setting up Express routes, and
+						wiring up JWT authentication — before writing a single line of frontend code. This gave me a
+						clear, stable contract to build the clients against.
+					</div>
+				</div>
+
+				<div class="cs-step">
+					<div class="cs-step-num">02</div>
+					<div class="cs-step-title">React Client</div>
+					<div class="cs-step-desc">
+						Built the React frontend incrementally: login and registration first, then the movie list, then
+						the detail view, and finally the user profile with favourites management. Used hooks throughout
+						and kept components focused and reusable.
+					</div>
+				</div>
+
+				<div class="cs-step">
+					<div class="cs-step-num">03</div>
+					<div class="cs-step-title">Angular Client</div>
+					<div class="cs-step-desc">
+						Rebuilt the entire frontend in Angular and TypeScript as a deliberate learning exercise. Working
+						in a strongly-typed, opinionated framework highlighted different trade-offs — particularly
+						around RxJS and dependency injection vs. React's composable hooks model.
+					</div>
+				</div>
+
+			</div>
+		</section>
+	</div>
+
+	<!-- FEATURES -->
+	<div class="zone-pale">
+		<section class="section">
+			<div class="section-label">key features</div>
+			<div class="cs-features">
+
+				<div class="cs-feature">
+					<div class="cs-feature-icon">🔐</div>
+					<div>
+						<div class="cs-feature-title">JWT Authentication</div>
+						<div class="cs-feature-desc">Secure registration and login flow. Tokens stored in localStorage
+							and sent on every authenticated request. Protected routes redirect unauthenticated users.
+						</div>
+					</div>
+				</div>
+
+				<div class="cs-feature">
+					<div class="cs-feature-icon">🎥</div>
+					<div>
+						<div class="cs-feature-title">Movie Browser &amp; Search</div>
+						<div class="cs-feature-desc">Browse the full movie list and filter by title, genre, or director.
+							Each movie can be opened for a detail view that also shows related suggestions.</div>
+					</div>
+				</div>
+
+				<div class="cs-feature">
+					<div class="cs-feature-icon">❤️</div>
+					<div>
+						<div class="cs-feature-title">Favourites Toggle</div>
+						<div class="cs-feature-desc">Add or remove favourites from both the main list and the detail
+							view. Keeping that toggle in sync across views — especially after a page reload — was the
+							trickiest part of the whole project.</div>
+					</div>
+				</div>
+
+				<div class="cs-feature">
+					<div class="cs-feature-icon">👤</div>
+					<div>
+						<div class="cs-feature-title">User Profile</div>
+						<div class="cs-feature-desc">Profile view showing account details and favourites list. Users can
+							update their information or delete their account entirely.</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="cs-callout">
+				<div>
+					<div class="cs-callout-label">Also available</div>
+					<div class="cs-callout-title">🅰️ MyMovieBox — Angular</div>
+					<div class="cs-callout-desc">
+						The same features rebuilt in Angular 16 with TypeScript, Angular Material, and RxJS. Built to
+						compare frameworks hands-on and learn Angular's opinionated patterns.
+					</div>
+				</div>
+				<div class="cs-callout-links">
+					<a href="https://brunahilbert.github.io/myMovieBox-angular-client" target="_blank"
+						class="cs-callout-link">View Angular Demo ↗</a>
+					<a href="https://github.com/brunahilbert/myMovieBox-angular-client" target="_blank"
+						class="cs-callout-link">View Angular Code ↗</a>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- RESULT -->
+	<div class="zone-dark">
+		<section class="section">
+			<div class="section-label">result &amp; learnings</div>
+			<div class="cs-result-inner">
+				<div class="cs-result-text">
+					<p>
+						This was the most challenging project of the course — and the most rewarding. The client-side
+						took much more time than expected, mostly due to troubleshooting. The hardest problem was the
+						favourites toggle: keeping the data consistent across different views after a page reload. It
+						took research and consulting with other developers to finally resolve, but solving it taught me
+						more than any tutorial could.
+					</p>
+					<p>
+						Building the same product twice — once in React with Redux, once in Angular — was one of the
+						most effective ways to truly understand what each framework does for you, and where the real
+						trade-offs are.
+					</p>
+				</div>
+				<div class="cs-result-actions">
+					<a href="https://mymoviebox.netlify.app" target="_blank" class="btn-primary">View React Demo ↗</a>
+					<a href="https://github.com/brunahilbert/myMovieBox-client" target="_blank" class="btn-ghost">View
+						Code ↗</a>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>Designed &amp; built with ♥ by <span>Bruna Hilbert</span> · 2026</p>
+			<div class="footer-links">
+				<a href="pokedex-case-study.html">← prev: Pokédex</a>
+				<a href="index.html#work">all projects →</a>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>

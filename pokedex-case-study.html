@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pokédex — Case Study · Bruna Hilbert</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+
+<body>
+
+	<div id="cursor"></div>
+	<div id="cursor-ring"></div>
+	<div id="scroll-bar"></div>
+
+	<!-- NAV -->
+	<nav>
+		<a href="index.html" class="nav-logo">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 54" class="cv-logo" role="img"
+				aria-label="Bruna Hilbert">
+				<rect x="0" y="0" width="54" height="54" rx="10" fill="rgba(255,255,255,0.15)"
+					stroke="rgba(255,255,255,0.30)" stroke-width="1"></rect>
+				<text x="27" y="27" dominant-baseline="central" text-anchor="middle"
+					font-family="'DM Mono','Courier New',monospace" font-size="18" fill="#ffffff">&lt;/&gt;</text>
+				<text x="68" y="24" font-family="'Syne','Arial Black',sans-serif" font-size="22" font-weight="800"
+					letter-spacing="-0.5" fill="#ffffff">Bruna</text>
+				<text x="68" y="48" font-family="'Syne','Arial Black',sans-serif" font-size="22" font-weight="800"
+					letter-spacing="-0.5" fill="#83C5BE">Hilbert</text>
+			</svg>
+		</a>
+		<ul class="nav-links">
+			<li><a href="index.html#about">about</a></li>
+			<li><a href="index.html#work">work</a></li>
+			<li><a href="index.html#contact">contact</a></li>
+		</ul>
+		<a href="files/cv-en.html" target="_blank" class="nav-cta">cv.pdf ↗</a>
+	</nav>
+
+	<!-- HERO -->
+	<div class="zone-hero">
+		<section class="section cs-hero">
+			<a href="index.html#work" class="cs-back">← back to portfolio</a>
+			<span class="cs-hero-emoji">⚡️</span>
+			<h1 class="cs-hero-title">Pokédex</h1>
+			<p class="cs-hero-type">JavaScript · REST API · Case Study</p>
+			<div class="hero-tags">
+				<span class="tag">JavaScript</span>
+				<span class="tag">HTML / CSS</span>
+				<span class="tag">PokeAPI</span>
+				<span class="tag">Fetch API</span>
+				<span class="tag">Async / Await</span>
+			</div>
+			<div class="cs-hero-actions">
+				<a href="https://brunahilbert.github.io/pokedex/" target="_blank" class="btn-primary">View Demo ↗</a>
+				<a href="https://github.com/brunahilbert/pokedex" target="_blank" class="btn-ghost">View Code ↗</a>
+			</div>
+		</section>
+	</div>
+
+	<!-- OVERVIEW -->
+	<div class="zone-white">
+		<section class="section">
+			<div class="section-label">overview</div>
+			<div class="cs-overview-grid">
+				<div class="cs-body-text">
+					<p>
+						Pokédex is a <strong>small web application</strong> built with HTML, CSS, and JavaScript that
+						loads data about Pokémon from the open-source <strong>PokéAPI</strong>. It lets users browse the
+						list, search for a Pokémon by name, and view each one's details.
+					</p>
+					<p>
+						One of the first real challenges was that the raw API data came without unit labels — so I built
+						<strong>three custom JavaScript functions</strong> to format and display the data correctly,
+						making it readable and meaningful for the user.
+					</p>
+					<p>
+						The project was part of my <strong>CareerFoundry Full-Stack Web Development</strong> training.
+						The objective was to develop a complete, fully functional JavaScript application with a visually
+						appealing and easy-to-use interface — a first step into building real things with JavaScript
+						before moving into frameworks.
+					</p>
+				</div>
+				<div class="cs-glance">
+					<div class="cs-glance-item">
+						<div class="cs-glance-label">Year</div>
+						<div class="cs-glance-value">2022</div>
+					</div>
+					<div class="cs-glance-item">
+						<div class="cs-glance-label">Role</div>
+						<div class="cs-glance-value">Solo developer</div>
+					</div>
+					<div class="cs-glance-item">
+						<div class="cs-glance-label">Context</div>
+						<div class="cs-glance-value">CareerFoundry training project</div>
+					</div>
+					<div class="cs-glance-item">
+						<div class="cs-glance-label">Stack</div>
+						<div class="cs-glance-pills">
+							<span class="cs-pill">JavaScript</span>
+							<span class="cs-pill">HTML</span>
+							<span class="cs-pill">CSS</span>
+							<span class="cs-pill">PokéAPI</span>
+						</div>
+					</div>
+					<div class="cs-glance-item">
+						<div class="cs-glance-label">Deployed on</div>
+						<div class="cs-glance-value">GitHub Pages</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- PROCESS -->
+	<div class="zone-pale">
+		<section class="section">
+			<div class="section-label">process</div>
+			<div class="cs-steps">
+
+				<div class="cs-step">
+					<div class="cs-step-num">01</div>
+					<div class="cs-step-title">Research &amp; Theme</div>
+					<div class="cs-step-desc">
+						Researched how to build a Pokémon app, paying close attention to the Pokémon visual identity —
+						colours, logo style, and overall aesthetic — to make the interface feel true to the theme from
+						the start.
+					</div>
+				</div>
+
+				<div class="cs-step">
+					<div class="cs-step-num">02</div>
+					<div class="cs-step-title">Fetching &amp; Displaying Data</div>
+					<div class="cs-step-desc">
+						Connected to the PokéAPI to load the Pokémon list and individual detail data. Because the API
+						returns raw numbers without unit labels, I wrote three custom JavaScript functions to format and
+						display the data properly for users.
+					</div>
+				</div>
+
+				<div class="cs-step">
+					<div class="cs-step-num">03</div>
+					<div class="cs-step-title">Search &amp; Detail View</div>
+					<div class="cs-step-desc">
+						Added a search engine so users can filter Pokémon by name, and built the detail view to display
+						each Pokémon's data points in a clear, readable way — all without any page reloads.
+					</div>
+				</div>
+
+			</div>
+		</section>
+	</div>
+
+	<!-- FEATURES -->
+	<div class="zone-white">
+		<section class="section">
+			<div class="section-label">key features</div>
+			<div class="cs-features">
+
+				<div class="cs-feature">
+					<div class="cs-feature-icon">🔍</div>
+					<div>
+						<div class="cs-feature-title">Search Engine</div>
+						<div class="cs-feature-desc">Users can search for any Pokémon by name. The list filters in real
+							time without reloading the page.</div>
+					</div>
+				</div>
+
+				<div class="cs-feature">
+					<div class="cs-feature-icon">📋</div>
+					<div>
+						<div class="cs-feature-title">Detail View</div>
+						<div class="cs-feature-desc">Each Pokémon can be opened to view its individual data points —
+							fetched on demand from the PokéAPI and displayed in a clear, readable format.</div>
+					</div>
+				</div>
+
+				<div class="cs-feature">
+					<div class="cs-feature-icon">🔢</div>
+					<div>
+						<div class="cs-feature-title">Formatted Data</div>
+						<div class="cs-feature-desc">The PokéAPI returns raw numbers without unit labels. Three custom
+							JavaScript functions handle the formatting so the data is meaningful and readable for users.
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+	</div>
+
+	<!-- RESULT -->
+	<div class="zone-dark">
+		<section class="section">
+			<div class="section-label">result &amp; learnings</div>
+			<div class="cs-result-inner">
+				<div class="cs-result-text">
+					<p>
+						I'm proud of this project. From the start I focused on capturing the Pokémon feel — researching
+						the visual identity and making deliberate design choices — rather than just shipping something
+						functional. Prioritising well-formatted, readable data over raw API output was an early lesson
+						in thinking about the user, not just the code.
+					</p>
+					<p>
+						Looking back, one thing I'd improve is the layout on larger screens — optimising it to display
+						multiple Pokémon per row and making better use of the available space.
+					</p>
+				</div>
+				<div class="cs-result-actions">
+					<a href="https://brunahilbert.github.io/pokedex/" target="_blank" class="btn-primary">View Live Demo
+						↗</a>
+					<a href="https://github.com/brunahilbert/pokedex" target="_blank" class="btn-ghost">View on GitHub
+						↗</a>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>Designed &amp; built with ♥ by <span>Bruna Hilbert</span> · 2026</p>
+			<div class="footer-links">
+				<a href="index.html#work">← all projects</a>
+				<a href="mymoviebox-case-study.html">next: MyMovieBox →</a>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>

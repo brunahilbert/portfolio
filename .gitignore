@@ -1,0 +1,20 @@
+# AI assistant / tooling
+.claude/
+ 
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ 
+# Editors
+.vscode/
+.idea/
+*.swp
+ 
+# Node (caso venha a usar build tools no futuro)
+node_modules/
+npm-debug.log*
+ 
+# Env
+.env
+.env.local
